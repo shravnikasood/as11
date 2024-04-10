@@ -35,8 +35,8 @@ with open(input_filename, 'r') as input_file:
 with open(output_filename, 'w') as output_file:
     if number_found:
         if lowest_number.is_integer():
-            output_file.write(f"{int(lowest_number)}\n")
+            output_file.write(f"{int(lowest_number)}")
         else:
-            output_file.write(f"{lowest_number}\n")
+            output_file.write(f"{lowest_number}")
     else:
-        output_file.write("No numbers found in file\n")
+        output_file.write("No numbers found in file")
